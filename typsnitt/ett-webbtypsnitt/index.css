@@ -1,0 +1,7 @@
+@font-face {
+    font-family: myFont;
+    src: url('StyleScript-Regular.ttf') format('truetype');
+  }
+p {
+    font-family: "myFont";
+}
