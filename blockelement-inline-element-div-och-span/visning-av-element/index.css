@@ -1,0 +1,11 @@
+a {
+    padding: 0 15px; /* Adds space between links */
+  }
+  
+  ul {
+    padding-left: 0; /* Removes left bullet padding */
+  }
+
+  li{
+      display: inline;
+  }
