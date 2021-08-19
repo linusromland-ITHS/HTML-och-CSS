@@ -1,0 +1,15 @@
+header {
+    height: 3rem;
+  }
+  
+  footer {
+      height: 2rem;
+  }
+  
+  main{
+      flex-grow: 2;
+  }
+  body{
+      display: flex;
+      flex-direction: column;
+  }
