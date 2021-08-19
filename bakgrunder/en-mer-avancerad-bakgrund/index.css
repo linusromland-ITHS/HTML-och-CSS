@@ -1,0 +1,7 @@
+body {
+  background-color: #ba9b7e;
+  background-image: url(fox@800px.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
