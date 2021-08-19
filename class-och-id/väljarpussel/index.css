@@ -1,0 +1,12 @@
+.a {
+    background-color: red;
+}
+#a{
+    background-color: green;
+}
+#b{
+    background-color: blue;
+}
+.a.b#a{
+    background-color: orange;
+}
