@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: hotpink;
+    border: 1px solid #fff;
+    padding: 2px;
+    margin: 0 2px;
+}
