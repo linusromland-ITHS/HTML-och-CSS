@@ -1,0 +1,9 @@
+@media (min-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  div{
+      width: 50%;
+  }
+}
