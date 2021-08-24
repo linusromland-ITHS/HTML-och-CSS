@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+/* Background Gradient */
+body {
+  background: rgb(196, 26, 70);
+  background: linear-gradient(
+    336deg,
+    rgba(196, 26, 70, 1) 0%,
+    rgba(184, 73, 168, 1) 50%,
+    rgba(7, 175, 164, 1) 100%
+  );
+}
+
+/* Navbar CSS */
+header {
+  list-style-type: none;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: rgba(46, 44, 44, 0.6);
+}
+
+#nav-title,
+#nav-title > a {
+  float: left;
+  text-align: center;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.nav-item {
+  float: right;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Footer CSS */
+footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Parallax Design */
+.parallax {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+#about {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 100vh;
+}
+
+#about p {
+  width: 500px;
+  margin: auto;
+}
+
+/* Centers container */
+.center {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  width: 50%;
+}
+
+/* Recipe CSS */
+#recipe {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#piePicture {
+  width: 35%;
+  border-radius: 25px;
+}
+
+#pieTitle {
+  font-size: 225%;
+  width: 50%;
+  line-height: 6em;
+  text-align: center;
+  margin: 25px;
+}
+
+#ingredients,
+#prepartion {
+  padding: 25px;
+  width: 40%;
+}
+
+/* About CSS */
+#about {
+  background: rgb(196, 26, 70);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 26, 70, 1) 0%,
+    rgba(184, 73, 168, 1) 50%,
+    rgba(7, 175, 164, 1) 100%
+  );
+  display: flex;
+}
+
+#aboutSection {
+  padding: 25px;
+}
+#aboutSection h2 {
+  font-size: 225%;
+}
