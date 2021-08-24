@@ -1,0 +1,39 @@
+{
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+  },
+  "liveshare.authenticationProvider": "GitHub",
+  "git.ignoreMissingGitWarning": true,
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.presence": true,
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true
+}
