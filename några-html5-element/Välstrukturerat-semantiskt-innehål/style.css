@@ -86,30 +86,41 @@ footer {
 }
 
 /* Recipe CSS */
-#recipe {
+#infoArea {
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#piePicture {
-  width: 35%;
+#infoPicture {
+  width: 55%;
   border-radius: 25px;
 }
 
-#pieTitle {
+#infoTitle {
   font-size: 225%;
-  width: 50%;
-  line-height: 6em;
+  width: 35%;
   text-align: center;
   margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#ingredients,
-#prepartion {
+#operatingHours,
+#information {
   padding: 25px;
   width: 40%;
+}
+
+#operatingHours {
+  font-size: 150%;
+}
+
+#operatingHours ul,
+#information h2 {
+  margin: 25px;
 }
 
 /* About CSS */
